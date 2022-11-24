@@ -1,5 +1,6 @@
 
 import Reservation from './components/Reservation';
+import './style/App.css';
 
 function App() {
   return (
