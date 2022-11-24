@@ -1,24 +1,14 @@
 import React from "react";
+import Homepage from "./pages/Homepage";
 
-import Carousel from "nuka-carousel/lib/carousel";
 
 
 function App() {
 
   return (
 
-    <div>
-
-      <Carousel>
-
-
-
-
-      </Carousel>
-
-    </div>
-
-  );
+    <Homepage />
+  )
 
 }
 
