@@ -1,11 +1,25 @@
-import './App.css';
+import React from "react";
+
+import Carousel from "nuka-carousel/lib/carousel";
+
 
 function App() {
+
   return (
-    <div className="App">
-    
+
+    <div>
+
+      <Carousel>
+
+
+
+
+      </Carousel>
+
     </div>
+
   );
+
 }
 
 export default App;
