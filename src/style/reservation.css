@@ -1,0 +1,14 @@
+.popin {
+    background-color: purple;
+    width: 50%;
+
+}
+
+form {
+    all: unset;
+}
+
+input {
+    -webkit-appearance: none;
+    appearance: none;
+}

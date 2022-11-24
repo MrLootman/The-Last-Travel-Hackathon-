@@ -118,8 +118,10 @@ const destinations = [
         description: {
             paragraph_1: "Oubliez votre boussole et votre téléphone. Ils ne vous serviront pas ici. Ils ne vous serviront plus de toute façon une fois, entré en ces lieux. La fameuse forêt des pendus, situé non loin du Mont Fuji, vous ravira par son ambiance, son charme, ses trous dissimulés et ses arbres centenaires, dont les branches robustes ont maintes fois prouvées leurs efficacités.",
             paragraph_2: "Aucun moyen de communication, ni de localisation n’est possible ici. Préparez-vous donc pour votre dernier voyage. /!\ Corde fournie avec le contrat d'assurance aucun risque."
-            
-            
+
+
         }
     }
 ];
+
+export default destinations
