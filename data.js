@@ -66,7 +66,7 @@ const destinations = [
         image: "🗑️🚮💥😨💀",
         tagline: "L’odeur âcre de la combustion de soufre ne vous laissera pas indifférent...",
         lethal: "",
-        journey_date: "Le jour de la mort date de John Fitzgerald Kennedy",
+        journey_date: "Le jour de la mort de John Fitzgerald Kennedy",
         description: {
             paragraph_1: "Une fois parvenus dans la plus grande décharge à ciel ouverte de la planète, vous prendrez conscience de votre empreinte carbone, ainsi que de l’impact de votre présence au monde sur la vie de femmes, d’hommes et surtout d’enfants.",
             paragraph_2: "Dans ce parcours alternant entre mélancolie et dépression, sûrement aurez-vous envie d’en finir avec votre propre existence."
