@@ -19,6 +19,7 @@ const Homepage = () => {
 
 
             <Carousel className='carousel'>
+
                 <img src={image1} alt="test1" className="img1" />
                 <img src={image2} alt="test2" className="img2" />
                 <img src={image3} alt="test3" className="img3" />
