@@ -26,8 +26,6 @@ const Agency = () => {
                                     <p><span>Spécialité : </span>{character.speciality}</p>
                                 </div>
                             </div>
-
-
                         </div>
                     )
                 })}
