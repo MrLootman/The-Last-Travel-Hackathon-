@@ -2,7 +2,7 @@ const destinations = [
     {
         id: 1,
         name: "La porte de l'Enfer, Turkmenistan",
-        image: "",
+        image: "/assets/the-last-travel-image-porte-de-l-enfer.jpg",
         tagline: "L’odeur âcre de la combustion de soufre ne vous laissera pas indifférent...",
         lethal: "🍗🚪⚫🔥💀",
         journey_date: "Le jour de la mort d'Elvis Presley",
@@ -14,7 +14,7 @@ const destinations = [
     {
         id: 2,
         name: "Iakoutsk",
-        image: "",
+        image: "/assets/the-last-travel-image-iakoutsk.jpg",
         tagline: "C’est bon pour le teint",
         lethal: "⛸️☃️❄️🥶💀",
         journey_date: "Le jour de la mort de Igor Bogdanoff",
@@ -27,7 +27,7 @@ const destinations = [
     {
         id: 3,
         name: "Le lac Natron, Tanzanie",
-        image: "",
+        image: "/assets/the-last-travel-image-lac-natron.jpg",
         tagline: "Méduse est passé par là",
         lethal: "⁉️🧫🧫🧫💀",
         journey_date: "Le jour de la mort de Gilles de Rais",
@@ -39,7 +39,7 @@ const destinations = [
     {
         id: 4,
         name: "Le triangle des Bermudes",
-        image: "",
+        image: "/assets/the-last-travel-image-triangle-des-bermudes.jpg",
         tagline: "La géométrie pour les nuls",
         lethal: "🧭✈️🤨😨💀",
         journey_date: "Le jour de la mort de Saint-Exupéry",
@@ -51,7 +51,7 @@ const destinations = [
     {
         id: 5,
         name: "Queimada Grande",
-        image: "",
+        image: "/assets/the-last-travel-image-queimada-grande.jpg",
         tagline: "Vous ne connaissez pas les Jararaca ? Vous ne les connaîtrez pas longtemps.",
         lethal: "🏝️😃🐍😨💀",
         journey_date: "Le jour de la mort de Michel Drucker",
@@ -63,9 +63,9 @@ const destinations = [
     {
         id: 6,
         name: "Agbogloshie, Ghana",
-        image: "🗑️🚮💥😨💀",
+        image: "/assets/the-last-travel-image-agbogloshie.jpg",
         tagline: "L’odeur âcre de la combustion de soufre ne vous laissera pas indifférent...",
-        lethal: "",
+        lethal: "🗑️🚮💥😨💀",
         journey_date: "Le jour de la mort de John Fitzgerald Kennedy",
         description: {
             paragraph_1: "Une fois parvenus dans la plus grande décharge à ciel ouverte de la planète, vous prendrez conscience de votre empreinte carbone, ainsi que de l’impact de votre présence au monde sur la vie de femmes, d’hommes et surtout d’enfants.",
@@ -75,9 +75,9 @@ const destinations = [
     {
         id: 7,
         name: "Dzerzhinsk, Russie",
-        image: "⚛️☣️⚰️☢️💀",
+        image: "/assets/the-last-travel-image-dzerzhinsk.jpg",
         tagline: "La chasse aux champignons est ouverte",
-        lethal: "",
+        lethal: "⚛️☣️⚰️☢️💀",
         journey_date: "Le jour de l'accident de Chernobyl (le 26 avril 1986)",
         description: {
             paragraph_1: "Prenez une grande inspiration, votre voyage est organisé pour que vous puissiez profiter au maximum de cette atmosphère riche en atome.",
@@ -87,7 +87,7 @@ const destinations = [
     {
         id: 8,
         name: "Hotan, Chine",
-        image: "",
+        image: "/assets/the-last-travel-image-hotan.jpg",
         tagline: "Le plus grand marché climatique de Chine",
         lethal: "😤😤😤😤💀",
         journey_date: "Le jour du décès de Mao Zedong(9 septembre 1976)",
@@ -99,7 +99,7 @@ const destinations = [
     {
         id: 9,
         name: "San Pedro Sula, Honduras",
-        image: "",
+        image: "/assets/the-last-travel-image-san-pedro-sula.jpg",
         tagline: "L'homicide c'est la vie",
         lethal: "🔫🗡️🥷⚰️💀",
         journey_date: "Date du dernier meurtre de Jack The Ripper(13 février 1891)",
@@ -111,7 +111,7 @@ const destinations = [
     {
         id: 10,
         name: "Aokigahara, Japon",
-        image: "",
+        image: "/assets/the-last-travel-image-aokigahara.jpg",
         tagline: "Chaise et corde pour le prix d’un !",
         lethal: "🌲🪢🌳🪢💀",
         journey_date: "date de la première pendaison(1872)",
@@ -123,3 +123,5 @@ const destinations = [
         }
     }
 ];
+
+module.exports = destinations;

@@ -23,6 +23,12 @@
     font: inherit;
 }
 
+
+body {
+    background-color: var(--background-color);
+
+}
+
 h1,
 h2,
 h3 {
@@ -102,4 +108,9 @@ button:active {
         font-size: 1rem;
         line-height: 1.625rem;
     }
+}
+
+.test {
+    height: 500px;
+    background-color: var(--background-color);
 }
