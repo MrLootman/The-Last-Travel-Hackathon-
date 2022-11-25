@@ -23,6 +23,7 @@ const Destinations = () => {
 
                 <div className='titleDestination'>
                   <DestinationsTitle />
+                  {/* <h1 className='titlePage'>Destinations Finales</h1> */}
               </div>
       
           <div className='destinationForTravel'>
