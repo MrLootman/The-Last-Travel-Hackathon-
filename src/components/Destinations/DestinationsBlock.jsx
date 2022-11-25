@@ -17,17 +17,19 @@ const DestinationsBlock = ({info}) =>  {
             </p>
 
             <p className='lethalTravel'>
+                Niveau de léthalité de votre destination:
             {info.lethal}
             </p>
 
             <p className='journeyTravel'>
+                Date du départ de votre voyage de rêve: 
             {info.journey_date}
             </p>
 
             <p className='descriptionTravel'>
-            {/* {destinations.description.paragraph_1}
-            {destinations.description.paragraph_2}
-            {destinations.description.paragraph_3} */}
+            {info.description.paragraph_1}
+            {info.description.paragraph_2}
+            {info.description.paragraph_3}
             </p>
     
             </div>
