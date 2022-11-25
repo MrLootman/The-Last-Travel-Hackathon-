@@ -12,14 +12,15 @@ import image9 from '../assets/the-last-travel-image-san-pedro-sula.jpg';
 import image10 from '../assets/the-last-travel-image-triangle-des-bermudes.jpg';
 import Testimony from '../components/Testimony';
 import "../style/HomePage.css";
+import Header from '../components/Header/Header';
+import Footer from '../components/Footer';
+
 const Homepage = () => {
     return (
 
         <div>
-
-
+          <Header />
             <Carousel className='carousel'>
-
                 <img src={image1} alt="test1" className="img1" />
                 <img src={image2} alt="test2" className="img2" />
                 <img src={image3} alt="test3" className="img3" />
@@ -34,11 +35,8 @@ const Homepage = () => {
             <div>
                 <Testimony />
             </div>
-
-
-        </div>
-
-    );
+          <Footer />
+      </div>
 };
 
 export default Homepage;

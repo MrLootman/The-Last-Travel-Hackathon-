@@ -23,8 +23,8 @@
     font: inherit;
 }
 
-.App {
 
+body {
     background-color: var(--background-color);
 
 }
@@ -108,4 +108,9 @@ button:active {
         font-size: 1rem;
         line-height: 1.625rem;
     }
+}
+
+.test {
+    height: 500px;
+    background-color: var(--background-color);
 }
