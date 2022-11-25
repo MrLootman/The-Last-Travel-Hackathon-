@@ -66,7 +66,7 @@ const destinations = [
         image: "/assets/the-last-travel-image-agbogloshie.jpg",
         tagline: "L’odeur âcre de la combustion de soufre ne vous laissera pas indifférent...",
         lethal: "🗑️🚮💥😨💀",
-        journey_date: "Le jour de la mort date de John Fitzgerald Kennedy",
+        journey_date: "Le jour de la mort de John Fitzgerald Kennedy",
         description: {
             paragraph_1: "Une fois parvenus dans la plus grande décharge à ciel ouverte de la planète, vous prendrez conscience de votre empreinte carbone, ainsi que de l’impact de votre présence au monde sur la vie de femmes, d’hommes et surtout d’enfants.",
             paragraph_2: "Dans ce parcours alternant entre mélancolie et dépression, sûrement aurez-vous envie d’en finir avec votre propre existence."
@@ -124,4 +124,55 @@ const destinations = [
     }
 ];
 
-export default destinations
+const characters = [
+    {
+        id: 1,
+        name: "Leviathan Z. Alcott",
+        image: "",
+        age: 239,
+        sign: "Je me balade toujours avec ma maison sur le dos.",
+        beliefs: "Croit en la force des points de suspensions...",
+        degree: "Zombie à l'université de Baltimore.",
+        speciality: "Je vous laisse deviner..."
+    },
+    {
+        id: 2,
+        name: "Sheridan Colt",
+        image: "",
+        age: 5,
+        sign: "Bah oui !",
+        beliefs: "Jediisme ou le code spirituel des jedis.",
+        degree: "Collage de gommettes, BAFA",
+        speciality: "Je travaille pas ici, je veux que papa et maman viennent me chercher."
+    },
+    {
+        id: 3,
+        name: "Draven McDaniel",
+        image: "",
+        age: 542,
+        sign: "Je ne jure que par le pâté fait maison.",
+        beliefs: "Dudéisme (ne veut pas trop bosser, préfère boire et dormir quand il veut).",
+        degree: "Gestionnaire de l'industrie du bowling.",
+        speciality: "Je vous préparerai un horrible voyage aux petits oignons."
+    },
+    {
+        id: 4,
+        name: "Eleanore Lilith Graeme",
+        age: 666,
+        sign: "J’aime particulièrement les licornes.",
+        beliefs: "Pastafarisme ou la croyance en le Monstre Spaghetti Volant.",
+        degree: "Secrétaire médicale, permis avion et missiles.",
+        speciality: "N’ayez aucun doute qu’avec moi et ma poisse légendaire, votre voyage se passera mal."
+    },
+    {
+        id: 5,
+        name: "Jezebel I. Zane",
+        age: 126,
+        sign: "J’ai une sainte horreur des bâtiments penchés. ",
+        beliefs: "Pixel Perfect.",
+        degree: "Contrôleuse qualité des dictionnaires et glossaires portugais.",
+        speciality: "Avec moi, votre voyage filera droit, en enfer."
+    }
+];
+
+module.exports = destinations;
