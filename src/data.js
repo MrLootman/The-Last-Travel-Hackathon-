@@ -6,10 +6,10 @@ const destinations = [
         tagline: "L’odeur âcre de la combustion de soufre ne vous laissera pas indifférent...",
         lethal: "🍗🚪⚫🔥💀",
         journey_date: "Le jour de la mort d'Elvis Presley",
-        description: {
-            paragraph_1: "Pour notre série offre d’hiver, La Porte de l'Enfer est un champ de gaz naturel situé à Derweze (également orthographié Darvaza, ce qui signifie « porte »), dans la province d'Ahal au Turkménistan.",
-            paragraph_2: "Votre guide préféré vous donnera la possibilité d’approcher l’entrée de la porte. Peut-être aurez-vous la chance de contempler l’incendie éternel qui y règne, si toutefois la température insupportable ne vous a pas ôté la vie avant."
-        }
+        description: [
+            "Pour notre série offre d’hiver, La Porte de l'Enfer est un champ de gaz naturel situé à Derweze (également orthographié Darvaza, ce qui signifie « porte »), dans la province d'Ahal au Turkménistan.",
+            "Votre guide préféré vous donnera la possibilité d’approcher l’entrée de la porte. Peut-être aurez-vous la chance de contempler l’incendie éternel qui y règne, si toutefois la température insupportable ne vous a pas ôté la vie avant."
+        ]
     },
     {
         id: 2,
@@ -118,8 +118,8 @@ const destinations = [
         description: {
             paragraph_1: "Oubliez votre boussole et votre téléphone. Ils ne vous serviront pas ici. Ils ne vous serviront plus de toute façon une fois, entré en ces lieux. La fameuse forêt des pendus, situé non loin du Mont Fuji, vous ravira par son ambiance, son charme, ses trous dissimulés et ses arbres centenaires, dont les branches robustes ont maintes fois prouvées leurs efficacités.",
             paragraph_2: "Aucun moyen de communication, ni de localisation n’est possible ici. Préparez-vous donc pour votre dernier voyage. /!\ Corde fournie avec le contrat d'assurance aucun risque."
-            
-            
+
+
         }
     }
 ];
