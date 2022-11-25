@@ -23,6 +23,10 @@
     font: inherit;
 }
 
+body {
+    background-color: var(--background-color);
+}
+
 h1,
 h2,
 h3 {
@@ -105,6 +109,6 @@ button:active {
 }
 
 .test {
-    height: 1500px;
-    background-color: #7147D3;
+    height: 500px;
+    background-color: var(--background-color);
 }

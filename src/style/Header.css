@@ -29,7 +29,6 @@
     text-decoration: none;
     color: var(--text-color);
     font-weight: var(--font-text-weight-bold);
-    transition: 0.3s;
     padding-bottom: 26px;
     position: relative;
     transition: 0.3s;
