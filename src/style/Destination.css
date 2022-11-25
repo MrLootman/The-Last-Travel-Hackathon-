@@ -12,6 +12,7 @@ body {
     width: 100%;
     column-gap: 50px;
     row-gap: 15px;
+    padding: 0rem 10rem;
 }
 
 .destinationForTravel .travelBlock {
@@ -21,6 +22,7 @@ body {
     border-radius: 30px;
     box-shadow: var(--shadow-card);
     transition: 0.7s ease-in-out;
+    padding: 1rem;
 }
 
 .destinationForTravel .travelBlock:hover {
@@ -31,10 +33,11 @@ body {
 display: block;
 margin-left: auto;
 margin-right: auto;
-border-radius: 30px;
+border-radius: 20px;
 width: 100%;
 overflow: hidden;
 justify-items: center;
+padding-bottom: 1rem;
 }
 
 .destinationForTravel h1, .titleTravel, .taglineTravel, .lethalTravel, .journeyTravel, .descriptionTravel {
@@ -42,9 +45,7 @@ justify-items: center;
     margin-bottom: 10px;  
 }
 
-.destinationForTravel .titleTravel {
-    text-decoration: underline;
-}
+
 
 .destinationForTravel .taglineTravel {
     font-style: italic;
