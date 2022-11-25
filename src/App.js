@@ -1,17 +1,10 @@
 import './style/App.css';
-<<<<<<< HEAD
-import Contact from './pages/Contact';
-=======
->>>>>>> dev
+import Destinations from './pages/Destinations';
 
 function App() {
   return (
     <div className="App">
-<<<<<<< HEAD
-      <Contact />
-=======
-
->>>>>>> dev
+      <Destinations />
     </div>
   );
 }
