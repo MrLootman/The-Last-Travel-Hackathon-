@@ -23,8 +23,10 @@
     font: inherit;
 }
 
+
 body {
     background-color: var(--background-color);
+
 }
 
 h1,
