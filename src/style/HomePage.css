@@ -86,7 +86,7 @@
     box-shadow: 5px 5px 15px 5px var(--secondary-color-2);
     padding-right: 3%;
     margin-top: 1.5%;
-    border-radius: 0px 16px 16px 0px;
+    border-radius: 16px 16px 16px 16px;
 }
 
 .hurt1 {
@@ -113,7 +113,7 @@
     box-shadow: 5px 5px 15px 5px var(--secondary-color-2);
     padding-right: 3%;
     margin-top: 3%;
-    border-radius: 16px 0px 0px 16px;
+    border-radius: 16px 16px 16px 16px;
 }
 
 .hurt2 {
@@ -139,7 +139,8 @@
     box-shadow: 5px 5px 15px 5px var(--secondary-color-2);
     padding-right: 3%;
     margin-top: 3%;
-    border-radius: 0px 16px 16px 0px;
+    border-radius: 16px 16px 16px 16px;
+    margin-bottom: 150px;
 }
 
 .hurt3 {

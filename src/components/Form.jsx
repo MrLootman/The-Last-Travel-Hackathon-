@@ -25,7 +25,7 @@ const Form = () => {
                                 type="text"
                                 value={name}
                                 onChange={(e) => setName(e.target.value)}
-                                id="name" 
+                                id="name"
                             />
                         <label htmlFor="email">Votre adresse email</label>
                             <input
